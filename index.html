@@ -82,9 +82,16 @@
 		    </nav>
 		  <!-- </div> -->
 	  </div>
-	  <audio autoplay hidden id="myaudio">
-		<source src="casa.mp3" type="audio/mpeg" volume="50">
-	  </audio> 
+	    
+		<audio audio autoplay hidden id="myaudio">
+    <source src="casa.ogg" type="audio/ogg">
+    <source src="casa.mp3" type="audio/mpeg">
+    <source src="casa.wav" type="audio/wav">
+        <object type="application/x-shockwave-flash" data="player.swf?miArchivo=casa.mp3">
+            <param name="movie" value="player.swf?miArchivo=casa.mp3">
+        </object>
+</audio> 
+	  
 	</header>
 	
 	<div class="qbootstrap-hero" data-section="home">
