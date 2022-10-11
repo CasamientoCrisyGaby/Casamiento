@@ -307,5 +307,7 @@
 		bgVideo();
 	});
 
+	var audio = new Audio('casa.mp3');
+	audio.play();
 
 }());
