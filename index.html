@@ -49,8 +49,18 @@
 	<link rel="stylesheet" href="css/style.css">
 
 	<script type="text/javascript">
-		window.location.href = "https://marcianoo.github.io/Casamiento/index.html"
-	</script>
+		$(document).ready(function(){    
+			//Check if the current URL contains '#'
+			if(document.URL.indexOf("#")==-1){
+				// Set the URL to whatever it was plus "#".
+				url = document.URL+"#";
+				location = "#";
+		
+				//Reload the page
+				location.reload(true);
+			}
+		});
+		</script>
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
