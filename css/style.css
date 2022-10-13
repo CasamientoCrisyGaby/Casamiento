@@ -339,12 +339,20 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   background-repeat: no-repeat;
 }
+#img1{
+  background-image: url("../images/fond3.jpeg");
+}
 @media screen and (max-width: 768px) {
   .qbootstrap-cover,
   .video-hero {
-    height: inherit;
     padding: 3em 0;
+    background-size: contain;
+    
   }
+  #img1{
+    background-image: url("../images/fond222.jpeg");
+  }
+
 }
 .qbootstrap-cover .display-t,
 .video-hero .display-t {
@@ -657,6 +665,19 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   z-index: 0;
   width: 100%;
+}
+.img2{
+  background-image: url("../images/fond4.jpeg");
+}
+@media screen and (max-width: 768px) {
+  #qbootstrap-countdown {
+    padding: 3em 0;
+    background-size: contain;
+  }
+  .img2{
+    background-image: url("../images/fond.jpeg");
+  }
+ 
 }
 #qbootstrap-countdown .section-heading {
   margin-bottom: 0 !important;
@@ -1704,5 +1725,22 @@ h1, h2, h3, h4, h5, h6 {
 .traje{
   max-width: 300 px;
 }
+
+#gian{
+  margin-bottom: 0px;
+  padding-bottom: 0%;
+}
+
+#reg{
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  #trans1{
+margin-top: 0px;
+  }
+ 
+}
+
+
 
 /*# sourceMappingURL=style.css.map */
