@@ -73,7 +73,6 @@
 	          <ul class="nav navbar-nav navbar-right">
 	            <li class="active"><a href="#" data-nav-section="home"><span>Inicio</span></a></li>
 	            <li><a href="#" data-nav-section="groom-bride"><span>Marido &amp; Mujer</span></a></li>
-	            <li><a href="#" data-nav-section="greetings"><span>Saludos</span></a></li>
 	            <li><a href="#" data-nav-section="people"><span>Familiares</span></a></li>
 	            <li><a href="#" data-nav-section="when-where"><span>Cuando &amp; Donde</span></a></li>
 	            <li><a href="#" data-nav-section="rsvp"><span>Invitación</span></a></li>
@@ -88,8 +87,8 @@
 	</header>
 	
 	<div class="qbootstrap-hero" data-section="home">
-		<div class="qbootstrap-overlay"></div>
-		<div class="qbootstrap-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/fond3.jpeg);">
+		<div class="qbootstrap-overlay" id="trans1"></div>
+		<div class="qbootstrap-cover text-center" id="img1" data-stellar-background-ratio="0.5">
 			<div class="display-t">
 				<div class="display-tc">
 					<div class="container">
@@ -106,7 +105,6 @@
 			</div>
 		</div>
 	</div>
-	
 	<div id="qbootstrap-couple" class="qbootstrap-section-gray">
 		<div class="container">
 			<div class="row animate-box">
@@ -114,8 +112,8 @@
 					<div class="col-md-12 text-center section-heading svg-sm colored">
 						<img src="images/flaticon/svg/005-two.svg" class="svg" alt="">
 						<h2>Nos vamos a casar!</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam accusamus, sequi, minima repellendus explicabo magni aperiam, ducimus perferendis ad quidem suscipit omnis unde veritatis pariatur. Commodi, nisi. Iusto, accusantium a.</p>
-						<p><strong>el 10 de diciembre de 2022 &mdash; Buenos Aires, Argentina</strong></p>
+						<p>Las mejores cosas de la vida merecen ser compartidas</p>
+						<p>Los esperamos para festejar un día inolvidable</p>
 					</div>
 				</div>
 			</div>
@@ -137,8 +135,8 @@
 		</div>
 	</div>
 	
-	<div id="qbootstrap-countdown" data-stellar-background-ratio="0.5" style="background-image: url(images/fond4.jpeg);" data-section="wedding-day">
-		<div class="overlay"></div>
+	<div id="qbootstrap-countdown" data-stellar-background-ratio="0.5" class="img2" data-section="wedding-day">
+		<div class="overlay" id="trans2"></div>
 		<div class="display-over">
 			<div class="container">
 				<div class="row animate-box">
@@ -169,7 +167,8 @@
 					<div class="col-md-12 text-center section-heading svg-sm-2 colored">
 						<img src="images/flaticon/svg/002-wedding-couple.svg" class="svg" alt="">
 						<h2>Marido &amp; Mujer</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam accusamus, sequi, minima repellendus explicabo magni aperiam, ducimus perferendis ad quidem suscipit omnis unde veritatis pariatur. Commodi, nisi. Iusto, accusantium a.</p>
+						<p> Porque después de 14 años decidimos sellar nuestro amor con Dios, nuestra familia y amigos. </p>
+						<p> Y continuar con esta hermosa aventura juntos, por eso es muy importante que lo vivas con nosotros </p>
 					</div>
 				</div>
 			</div>
@@ -179,10 +178,9 @@
 						<img src="images/cr.jpeg" class="img-responsive" alt="">
 						<div class="desc">
 							<h2>Cristian A. Lanzillotti</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda vero totam eum, necessitatibus reprehenderit nisi, ratione neque aspernatur sapiente minus? Omnis neque labore distinctio aspernatur esse impedit laboriosam, veritatis dolorem!</p>
 							<ul class="social social-circle">
-								<li><a href="#"><i class="icon-whatsapp"></i></a></li>
-								<li><a href="#"><i class="icon-instagram"></i></a></li>
+								<li><a href="https://api.whatsapp.com/send/?phone=1169161012&text&type=phone_number&app_absent=0"><i class="icon-whatsapp"></i></a></li>
+								<li><a href="https://www.instagram.com/cris_lanzillotti/"><i class="icon-instagram"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -192,10 +190,9 @@
 						<img src="images/pro1.jpeg" class="img-responsive" alt="">
 						<div class="desc">
 							<h2>Gabriela L. Soncini</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda vero totam eum, necessitatibus reprehenderit nisi, ratione neque aspernatur sapiente minus? Omnis neque labore distinctio aspernatur esse impedit laboriosam, veritatis dolorem!</p>
 							<ul class="social social-circle">
-								<li><a href="#"><i class="icon-whatsapp"></i></a></li>
-								<li><a href="#"><i class="icon-instagram"></i></a></li>
+								<li><a href="https://api.whatsapp.com/send/?phone=1158164685&text&type=phone_number&app_absent=0"><i class="icon-whatsapp"></i></a></li>
+								<li><a href="https://www.instagram.com/gabis262/"><i class="icon-instagram"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -204,66 +201,35 @@
 		</div>
 	</div>
 
-	
-	
-
-	<div id="qbootstrap-testimonials" class="qbootstrap-greetings" data-section="greetings" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_1.jpg);">
-	<div class="overlay"></div>	
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-12 section-heading text-center svg-sm colored">
-					<img src="images/flaticon/svg/006-flower-bell-outline-design-variant-with-vines-and-leaves.svg" class="svg" alt="">
-					<h2 class="">Sweet Messages</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 animate-box">
-					<div class="box-testimony ">
-						<blockquote>
-							<span class="quote"><span><i class="icon-quote-left"></i></span></span>
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-						</blockquote>
-						<p class="author">John Doe</p>
-					</div>
-					
-				</div>
-				<div class="col-md-4 animate-box">
-					<div class="box-testimony ">
-						<blockquote>
-							<span class="quote"><span><i class="icon-quote-left"></i></span></span>
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;</p>
-						</blockquote>
-						<p class="author">John Doe</p>
-					</div>
-					
-					
-				</div>
-				<div class="col-md-4 animate-box">
-					<div class="box-testimony ">
-						<blockquote>
-							<span class="quote"><span><i class="icon-quote-left"></i></span></span>
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-						</blockquote>
-						<p class="author">John Doe</p>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-	</div>
 
 	<div id="qbootstrap-people" data-section="people">
 		<div class="container">
 			<div class="row animate-box">
+				<div class="col-md-12 text-center animate-box">
+					<div class="col-md-12 text-center section-heading svg-sm colored" id="gian">
+						<img src="images/flaticon/svg/005-two.svg" class="svg" alt="">
+						<h2>Nuestro Hijo</h2>
+						<h2>Gianluca</h2>
+					</div>
+					
+					<div class="col-md-6 text-center animate-box">
+						<div class="groom-men">
+							<img src="images/gian.jpeg" class="img-responsive" alt="">
+							
+						</div>
+					</div>
+					<div class="col-md-6 text-center animate-box">
+					<div class="groom-men">
+						<img src="images/gian2.jpeg" class="img-responsive" alt="">
+						
+					</div>
+				</div>
+					
+				</div>
 				<div class="col-md-8 col-md-offset-2">
 					<div class="col-md-12 text-center section-heading svg-sm colored">
 						<img src="images/flaticon/svg/005-two.svg" class="svg" alt="">
 						<h2>Familiares de Cristian</h2>
-						<div class="row">
-						<div class="col-md-10 col-md-offset-1 subtext  ">
-							<h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
-						</div>
-					</div>
 					</div>
 				</div>
 			</div>
@@ -302,30 +268,25 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-3 text-center animate-box">
+				<div class="col-md-4 text-center animate-box">
 					<div class="groom-men">
 						<img src="images/abu.jpeg" class="img-responsive" alt="">
 						<h3>Liliana, mamá</h3>
 					</div>
 				</div>
-				<div class="col-md-3 text-center animate-box">
+				<div class="col-md-4 text-center animate-box">
 					<div class="groom-men">
 						<img src="images/franco.jpeg" class="img-responsive" alt="">
 						<h3>Franco, papá</h3>
 					</div>
 				</div>
-				<div class="col-md-3 text-center animate-box">
+				<div class="col-md-4 text-center animate-box">
 					<div class="groom-men">
 						<img src="images/clau.jpeg" class="img-responsive" alt="">
 						<h3>Claudia, hermana</h3>
 					</div>
 				</div>
-				<div class="col-md-3 text-center animate-box">
-					<div class="groom-men">
-						<img src="images/gian2.jpeg" class="img-responsive" alt="">
-						<h3>Gianluca, hijo</h3>
-					</div>
-				</div>
+				
 			</div>
 		</div>
 	</div>
@@ -339,7 +300,7 @@
 						<h2>Ceremonia &amp; Fiesta!</h2>
 						<div class="row">
 						<div class="col-md-10 col-md-offset-1 subtext">
-							<h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
+							<h3></h3>
 						</div>
 					</div>
 					</div>
@@ -452,14 +413,14 @@
 						<h2>Regalo</h2>
 						<div class="row">
 						<div class="col-md-10 col-md-offset-1 subtext">
-							<h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
+							<h4 style="font-size:36px;">Nuestro regalo es tu prescencia, pero si insistes puedes colaborar con la luna de miel</h4>
 						</div>
 					</div>
 					</div>
 				</div>
 			</div>
-			<div class="row animate-box">
-				<p><a href="#" class="btn btn-primary btn-sm" style="margin-left: 45% ;">Regalar</a></p>
+			<div class="row animate-box" id="reg">
+				<p><a href="#" class="btn btn-primary btn-sm"  >Regalar</a></p>
 
 
 			</div>
