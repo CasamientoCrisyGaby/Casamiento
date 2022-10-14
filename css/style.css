@@ -1730,13 +1730,19 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0px;
   padding-bottom: 0%;
 }
-
+#fras{
+  font-size: 30px;
+  font-weight: 900;
+}
 #reg{
   text-align: center;
 }
 @media screen and (max-width: 768px) {
   #trans1{
 margin-top: 0px;
+  }
+  #reloj{
+    margin-top: 35px;
   }
  
 }
