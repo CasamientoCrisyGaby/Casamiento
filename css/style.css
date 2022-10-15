@@ -342,11 +342,12 @@ h1, h2, h3, h4, h5, h6 {
 #img1{
   background-image: url("../images/fond3.jpeg");
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width:354px) and (max-width: 768px) {
   .qbootstrap-cover,
   .video-hero {
     padding: 3em 0;
-    background-size: contain;
+    background-size: relative;
+  
     
   }
   #img1{
@@ -354,6 +355,20 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 }
+@media screen and (max-width:353px){
+  #img1{
+    background-image: url("../images/fond222.jpeg");
+    background-position: center;
+  }
+  .video-hero {
+    padding: 3em 0;
+    background-size: relative;
+
+    
+  }
+}
+
+
 .qbootstrap-cover .display-t,
 .video-hero .display-t {
   display: table;
@@ -672,13 +687,15 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   #qbootstrap-countdown {
     padding: 3em 0;
-    background-size: contain;
+    background-size: relative;
   }
   .img2{
     background-image: url("../images/fond.jpeg");
+    background-position: center;
   }
  
 }
+
 #qbootstrap-countdown .section-heading {
   margin-bottom: 0 !important;
 }
@@ -732,13 +749,33 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 390px) and (max-width: 700px) {
+  #qbootstrap-countdown .countdown {
+    font-size: 65px;
+  }
+  #qbootstrap-countdown .countdown small {
+    font-size: 14px;
+    letter-spacing: 6px;
+  }
+}
+
+@media screen and (min-width: 313px) and (max-width: 389px) {
   #qbootstrap-countdown .countdown {
     font-size: 50px;
   }
   #qbootstrap-countdown .countdown small {
     font-size: 10px;
     letter-spacing: 4px;
+  }
+}
+
+@media screen and (max-width: 312px) {
+  #qbootstrap-countdown .countdown {
+    font-size: 45px;
+  }
+  #qbootstrap-countdown .countdown small {
+    font-size: 9px;
+    letter-spacing: 3px;
   }
 }
 
