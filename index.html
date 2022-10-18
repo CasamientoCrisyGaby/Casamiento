@@ -75,7 +75,7 @@
 	            <li><a href="#" data-nav-section="groom-bride"><span>Marido &amp; Mujer</span></a></li>
 	            <li><a href="#" data-nav-section="people"><span>Familiares</span></a></li>
 	            <li><a href="#" data-nav-section="when-where"><span>Cuando &amp; Donde</span></a></li>
-	            <li><a href="#" data-nav-section="rsvp"><span>Invitación</span></a></li>
+	            <li><a href="#" data-nav-section="rsvp"><span>Comunicate</span></a></li>
 				<li><a href="#" data-nav-section="blog"><span>Regalo</span></a></li>
 	            <li><a href="#" data-nav-section="gallery"><span>Fotos</span></a></li>    
 	          </ul>
@@ -179,8 +179,8 @@
 						<div class="desc">
 							<h2>Cristian A. Lanzillotti</h2>
 							<ul class="social social-circle">
-								<li><a href="https://api.whatsapp.com/send/?phone=1169161012&text&type=phone_number&app_absent=0"><i class="icon-whatsapp"></i></a></li>
-								<li><a href="https://www.instagram.com/cris_lanzillotti/"><i class="icon-instagram"></i></a></li>
+								<li><a href="https://api.whatsapp.com/send/?phone=1169161012&text&type=phone_number&app_absent=0" target="_blank"><i class="icon-whatsapp"></i></a></li>
+								<li><a href="https://www.instagram.com/cris_lanzillotti/" target="_blank"><i class="icon-instagram"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -191,8 +191,8 @@
 						<div class="desc">
 							<h2>Gabriela L. Soncini</h2>
 							<ul class="social social-circle">
-								<li><a href="https://api.whatsapp.com/send/?phone=1158164685&text&type=phone_number&app_absent=0"><i class="icon-whatsapp"></i></a></li>
-								<li><a href="https://www.instagram.com/gabis262/"><i class="icon-instagram"></i></a></li>
+								<li><a href="https://api.whatsapp.com/send/?phone=1158164685&text&type=phone_number&app_absent=0" target="_blank"><i class="icon-whatsapp"></i></a></li>
+								<li><a href="https://www.instagram.com/gabis262/" target="_blank"><i class="icon-instagram"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -214,7 +214,7 @@
 					
 					<div class="col-md-6 text-center animate-box">
 						<div class="groom-men">
-							<img src="images/gian.jpeg" class="img-responsive" alt="">
+							<img src="images/g1.jpeg" class="img-responsive" alt="">
 							
 						</div>
 					</div>
@@ -313,7 +313,7 @@
 				
 				<div class="col-md-12 text-center animate-box">
 					<div class="wedding-events">
-						<a href="https://goo.gl/maps/DPhsUyJ6zRK8DJzR8">
+						<a  href="https://goo.gl/maps/DPhsUyJ6zRK8DJzR8" target="_blank">
 							<div class="ceremony-bg" style="background-image: url(images/lug.jpg);"  >
 							</div>
 						</a>
@@ -330,7 +330,7 @@
 								</div>
 								<div class="col-md-2">
 									<div class="icon-tip"  >
-										<span class="icon" style="margin-top: 20%;"><i class="icon-heart-o"></i></span>
+										<span class="icon" style="margin-top: 20 ;"><i class="icon-heart-o"></i></span>
 									</div>
 								</div>
 								<div class="col-md-5 " id="reloj">
@@ -369,6 +369,34 @@
 		</div>
 	</div>
 
+	<div id="qbootstrap-started" class="qbootstrap-bg" data-section="rsvp"  id="img3">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="col-md-12 text-center section-heading svg-sm colored">
+						<img src="images/flaticon/svg/005-two.svg" class="svg" alt="">
+						<h2>Estas invitado!</h2>
+						<div class="row">
+						<div class="col-md-10 col-md-offset-1 subtext">
+							<h3>Confirmá tu asistencia! </h3>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="row text-center animate-box ">
+					
+							<a href="https://wa.me/541169161012/?text=Buen día, confirmo que el día 10 de diciembre estaré asistiendo al casamiento" target="_blank" class="btn btn-info" role="button">Asistiré</a>
+		
+							<a href="https://wa.me/541169161012/?text=Lo siento pero no podré asistir" target="_blank" class="btn btn-info" role="button">No asistiré</a>
+
+			</div>
+		</div>
+	</div>
+	
+
+
 	<div id="qbootstrap-press" data-section="blog">
 		<div class="container">
 			<div class="row animate-box">
@@ -385,8 +413,17 @@
 				</div>
 			</div>
 			<div class="row animate-box" id="reg">
-				<p><a href="#" class="btn btn-primary btn-sm"  >Regalar</a></p>
-
+				<p><a  class="btn btn-primary btn-sm" onclick="banco()" >Regalar</a></p>
+				<script type="text/javascript" src="lib.js">
+					function banco() {
+					  document.write(<h4 style="font-size:24px;">"Banco Galicia  \n
+							DU: 23834662 \n
+							CTA: 4024174-1 092-3 \n
+							CBU: 0070092430004024174137 \n
+							CUIL: 20238346623 \n
+							ALIAS: CRIS.Y.GABY</h4>);
+					};
+					</script>
 
 			</div>
 		</div>
@@ -399,7 +436,7 @@
 				<div class="col-md-8 col-md-offset-2">
 					<div class="col-md-12 text-center section-heading svg-sm colored">
 						<img src="images/flaticon/svg/005-two.svg" class="svg" alt="">
-						<h2>Nustro álbum de fotos</h2>
+						<h2>Nuestro álbum de fotos</h2>
 						<div class="row">
 						<div class="col-md-10 col-md-offset-1 subtext">
 							<h3 id="fras">Cuando amas a la persona indicada, empieza la verdadera <B>AVENTURA</B></h3>
@@ -413,37 +450,38 @@
 			<div class="row">
 				<div class="col-md-3 col-sm-6">
 					<div class="gallery animate-box">
-						<a class="gallery-img image-popup image-popup" href="images/2.jpeg"><img src="images/2.jpeg" class="img-responsive" alt=""></a>
+						<a class="gallery-img image-popup" href="images/11.jpeg"><img src="images/11.jpeg" class="img-responsive" alt=""></a>
 					</div>
-					<div class="gallery animate-box">
-						<a class="gallery-img image-popup" href="images/5.jpeg"><img src="images/5.jpeg" class="img-responsive" alt=""></a>
-					</div>
-					<div class="gallery animate-box">
-						<a class="gallery-img image-popup" href="images/20.jpeg"><img src="images/20.jpeg" class="img-responsive" alt=""></a>
-					</div>
-					<div class="gallery animate-box">
-						<a class="gallery-img image-popup" href="images/proc.jpeg"><img src="images/proc.jpeg" class="img-responsive" alt=""></a>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
 					<div class="gallery animate-box">
 						<a class="gallery-img image-popup" href="images/6.jpeg"><img src="images/6.jpeg" class="img-responsive" alt=""></a>
 					</div>
 					<div class="gallery animate-box">
-						<a class="gallery-img image-popup" href="images/19.jpeg"><img src="images/19.jpeg" class="img-responsive" alt=""></a>
+						<a class="gallery-img image-popup" href="images/13.jpeg"><img src="images/13.jpeg" class="img-responsive" alt=""></a>
 					</div>
 					<div class="gallery animate-box">
-						<a class="gallery-img image-popup" href="images/11.jpeg"><img src="images/11.jpeg" class="img-responsive" alt=""></a>
+						<a class="gallery-img image-popup" href="images/fam.jpeg"><img src="images/fam.jpeg" class="img-responsive" alt=""></a>
+					</div>
+					
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/17.jpeg"><img src="images/17.jpeg" class="img-responsive" alt=""></a>
 					</div>
 					<div class="gallery animate-box">
-						<a class="gallery-img image-popup" href="images/mam.jpeg"><img src="images/mam.jpeg" class="img-responsive" alt=""></a>
+						<a class="gallery-img image-popup" href="images/12.jpeg"><img src="images/12.jpeg" class="img-responsive" alt=""></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/10.jpeg"><img src="images/10.jpeg" class="img-responsive" alt=""></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/1.jpeg"><img src="images/1.jpeg" class="img-responsive" alt=""></a>
 					</div>
 					
 					
 				</div>
 				<div class="col-md-3 col-sm-6">
 					<div class="gallery animate-box">
-						<a class="gallery-img image-popup" href="images/12.jpeg"><img src="images/12.jpeg" class="img-responsive" alt=""></a>
+						<a class="gallery-img image-popup" href="images/5.jpeg"><img src="images/5.jpeg" class="img-responsive" alt=""></a>
 					</div>
 					<div class="gallery animate-box">
 						<a class="gallery-img image-popup" href="images/4.jpeg"><img src="images/4.jpeg" class="img-responsive" alt=""></a>
@@ -452,18 +490,18 @@
 						<a class="gallery-img image-popup" href="images/9.jpeg"><img src="images/9.jpeg" class="img-responsive" alt=""></a>
 					</div>
 					<div class="gallery animate-box">
-						<a class="gallery-img image-popup" href="images/ma1.jpeg"><img src="images/ma1.jpeg" class="img-responsive" alt=""></a>
+						<a class="gallery-img image-popup" href="images/fam1.jpeg"><img src="images/fam1.jpeg" class="img-responsive" alt=""></a>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6">
 					<div class="gallery animate-box">
-						<a class="gallery-img image-popup" href="images/13.jpeg"><img src="images/13.jpeg" class="img-responsive" alt=""></a>
+						<a class="gallery-img image-popup" href="images/21.jpeg"><img src="images/21.jpeg" class="img-responsive" alt=""></a>
 					</div>
 					<div class="gallery animate-box">
-						<a class="gallery-img image-popup" href="images/10.jpeg"><img src="images/10.jpeg" class="img-responsive" alt=""></a>
+						<a class="gallery-img image-popup" href="images/19.jpeg"><img src="images/19.jpeg" class="img-responsive" alt=""></a>
 					</div>
 					<div class="gallery animate-box">
-						<a class="gallery-img image-popup" href="images/17.jpeg"><img src="images/17.jpeg" class="img-responsive" alt=""></a>
+						<a class="gallery-img image-popup" href="images/22.jpeg"><img src="images/22.jpeg" class="img-responsive" alt=""></a>
 					</div>
 				</div>
 				
