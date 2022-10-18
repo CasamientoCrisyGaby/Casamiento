@@ -684,6 +684,11 @@ h1, h2, h3, h4, h5, h6 {
 .img2{
   background-image: url("../images/fond4.jpeg");
 }
+#qbootstrap-started{
+  background-image: url("../images/inv5.jpeg");
+  
+}
+
 @media screen and (max-width: 768px) {
   #qbootstrap-countdown {
     padding: 3em 0;
@@ -692,6 +697,9 @@ h1, h2, h3, h4, h5, h6 {
   .img2{
     background-image: url("../images/fond.jpeg");
     background-position: center;
+  }
+  #qbootstrap-started{
+    background-image: url("../images/inv2.jpeg");
   }
  
 }
@@ -1349,7 +1357,7 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-started .btn {
   height: 54px;
   border: none !important;
-  background: #FF847C;
+  background: #8000FFC7;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -1784,6 +1792,14 @@ margin-top: 0px;
  
 }
 
+#nasis{
+  text-align: center;
+  color: white;
+}
+#asis{
+  text-align: center;
+  color: white;
+}
 
 
 /*# sourceMappingURL=style.css.map */
