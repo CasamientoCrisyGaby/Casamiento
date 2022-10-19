@@ -236,7 +236,7 @@
 			<div class="row row-bottom-padded-lg">
 				<div class="col-md-3 text-center animate-box">
 					<div class="groom-men">
-						<img src="images/nono.jpeg" class="img-responsive" alt="">
+						<img src="images/anto.jpeg" class="img-responsive" alt="">
 						<h3>Antonio, papá</h3>
 					</div>
 				</div>
@@ -248,14 +248,14 @@
 				</div>
 				<div class="col-md-3 text-center animate-box">
 					<div class="groom-men">
-						<img src="images/ari.jpeg" class="img-responsive" alt="">
-						<h3>Ariel, hermano</h3>
+						<img src="images/vane.jpeg" class="img-responsive" alt="">
+						<h3>Vanesa, hermana</h3>
 					</div>
 				</div>
 				<div class="col-md-3 text-center animate-box">
 					<div class="groom-men">
-						<img src="images/vane.jpeg" class="img-responsive" alt="">
-						<h3>Vanesa, hermana</h3>
+						<img src="images/ari.jpeg" class="img-responsive" alt="">
+						<h3>Ariel, hermano</h3>
 					</div>
 				</div>
 			</div>
@@ -270,16 +270,18 @@
 			<div class="row">
 				<div class="col-md-4 text-center animate-box">
 					<div class="groom-men">
-						<img src="images/abu.jpeg" class="img-responsive" alt="">
-						<h3>Liliana, mamá</h3>
-					</div>
-				</div>
-				<div class="col-md-4 text-center animate-box">
-					<div class="groom-men">
 						<img src="images/franco.jpeg" class="img-responsive" alt="">
 						<h3>Franco, papá</h3>
 					</div>
 				</div>
+
+				<div class="col-md-4 text-center animate-box">
+					<div class="groom-men">
+						<img src="images/abu.jpeg" class="img-responsive" alt="">
+						<h3>Liliana, mamá</h3>
+					</div>
+				</div>
+				
 				<div class="col-md-4 text-center animate-box">
 					<div class="groom-men">
 						<img src="images/clau.jpeg" class="img-responsive" alt="">
@@ -413,17 +415,43 @@
 				</div>
 			</div>
 			<div class="row animate-box" id="reg">
-				<p><a  class="btn btn-primary btn-sm" onclick="banco()" >Regalar</a></p>
-				<script type="text/javascript" src="lib.js">
-					function banco() {
-					  document.write(<h4 style="font-size:24px;">"Banco Galicia  \n
-							DU: 23834662 \n
-							CTA: 4024174-1 092-3 \n
-							CBU: 0070092430004024174137 \n
-							CUIL: 20238346623 \n
-							ALIAS: CRIS.Y.GABY</h4>);
-					};
-					</script>
+				<p><a id="regal"  class="btn btn-primary btn-sm" >Regalar</a></p>
+				
+<div class="col-md-12" id="displaytable"  width="100%">
+   <div class="col-md-1">
+            <p>Banco Galicia</p>
+				
+		</div>
+		<div class="col-md-2">
+            <p>DU: 23834662</p>  <button onclick="DU()">Copiar DU</button>
+		</div>
+			<div class="col-md-2">
+            <p>CTA: 4024174-1 092-3</p> <button onclick="CTA()">Copiar CTA</button>
+		</div>
+		<div class="col-md-3">
+			<p>CBU: 0070092430004024174137</p> <button onclick="CBU()">Copiar CBU</button>
+		</div>
+		<div class="col-md-2">
+			<p>CUIL: 20238346623</p> <button onclick="CUIL()">Copiar CUIL</button>
+		</div>
+		<div class="col-md-2">
+			<p>ALIAS: CRIS.Y.GABY</p> <button onclick="ALIAS()">Copiar ALIAS</button>
+		</div>
+
+
+</div> 
+<script type="text/javascript">
+	document.getElementById("displaytable").style.display = "none"
+	document.getElementById("regal").addEventListener("click", function(button) {    
+   if (document.getElementById("displaytable").style.display === "none"){document.getElementById("displaytable").style.display = " table-row"}
+   else {document.getElementById("displaytable").style.display = "none"};
+});
+</script>
+<script type="text/javascript">async function DU() {await navigator.clipboard.writeText('23834662');}</script>
+<script type="text/javascript">async function CTA() {await navigator.clipboard.writeText('4024174-1 092-3');}</script>
+<script type="text/javascript">async function CBU() {await navigator.clipboard.writeText('0070092430004024174137');}</script>
+<script type="text/javascript">async function CUIL() {await navigator.clipboard.writeText('20238346623');}</script>
+<script type="text/javascript">async function ALIAS() {await navigator.clipboard.writeText('CRIS.Y.GABY');}</script>
 
 			</div>
 		</div>
