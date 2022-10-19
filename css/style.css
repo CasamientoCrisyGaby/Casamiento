@@ -1800,6 +1800,8 @@ margin-top: 0px;
   text-align: center;
   color: white;
 }
-
+#displaytable{
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */
