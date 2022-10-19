@@ -338,8 +338,9 @@
 								<div class="col-md-5 " id="reloj">
 									<div class="date">
 										<i class="icon-clock2"></i>
+										<span>La ceremonia comienza </span>
 										<span>20:30 PM</span>
-										<span>Toda la noche</span>
+										<span>Sé puntual!</span>
 									</div>
 								</div>
 							
@@ -417,25 +418,28 @@
 			<div class="row animate-box" id="reg">
 				<p><a id="regal"  class="btn btn-primary btn-sm" >Regalar</a></p>
 				
-<div class="col-md-12" id="displaytable"  width="100%">
+<div class="col-md-12" id="displaytable" style="text-align: center;" width="100%">
    <div class="col-md-1">
             <p>Banco Galicia</p>
 				
 		</div>
 		<div class="col-md-2">
-            <p>DU: 23834662</p>  <button onclick="DU()">Copiar DU</button>
+            <p>DU: 23834662</p>  
 		</div>
 			<div class="col-md-2">
-            <p>CTA: 4024174-1 092-3</p> <button onclick="CTA()">Copiar CTA</button>
+            <p>CTA: 4024174-1 092-3</p> 
 		</div>
+
+		<div class="col-md-2">
+			<p>CUIL: 20238346623</p> 
+		</div>
+
 		<div class="col-md-3">
-			<p>CBU: 0070092430004024174137</p> <button onclick="CBU()">Copiar CBU</button>
+			<p>CBU: 0070092430004024174137</p> <button class="btn btn-primary" onclick="CBU()">Copiar CBU</button>
 		</div>
-		<div class="col-md-2">
-			<p>CUIL: 20238346623</p> <button onclick="CUIL()">Copiar CUIL</button>
-		</div>
-		<div class="col-md-2">
-			<p>ALIAS: CRIS.Y.GABY</p> <button onclick="ALIAS()">Copiar ALIAS</button>
+		
+		<div class="col-md-2" id="ali">
+			<p>ALIAS: CRIS.Y.GABY</p> <button class="btn btn-primary" onclick="ALIAS()">Copiar ALIAS</button>
 		</div>
 
 
@@ -443,7 +447,7 @@
 <script type="text/javascript">
 	document.getElementById("displaytable").style.display = "none"
 	document.getElementById("regal").addEventListener("click", function(button) {    
-   if (document.getElementById("displaytable").style.display === "none"){document.getElementById("displaytable").style.display = " table-row"}
+   if (document.getElementById("displaytable").style.display === "none"){document.getElementById("displaytable").style.display = "contents"}
    else {document.getElementById("displaytable").style.display = "none"};
 });
 </script>
